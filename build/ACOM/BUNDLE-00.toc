@@ -1,0 +1,3 @@
+([('ACOM',
+   '/Users/gordonanderson/GAACE/PyCharmProjects/ACOM/dist/ACOM',
+   'EXECUTABLE')],)

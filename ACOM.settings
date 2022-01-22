@@ -1,0 +1,5 @@
+Model,700S
+Port,/dev/cu.wlan-debug
+CATport,TTL
+CATmode,ICOM
+CATbaud,4800
