@@ -2,6 +2,8 @@ This application is desiged to control and monitor the ACOM 600S/700S/1200S seri
 This application is modeled after Björn Ekelund system described on his web site, https://sm7iun.se/station/acom/
 source code is avalible on his github page here: https://github.com/bjornekelund
 
+![image](https://user-images.githubusercontent.com/4152473/150659719-d99d85a2-3941-4dac-99e1-ead3a75ebaaf.png)
+
 This application was developed for two reasons:
      - The need to run on both PCs and MACs
      - The need to set the CAT interface parameters
