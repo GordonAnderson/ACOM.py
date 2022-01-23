@@ -1,15 +1,15 @@
-#   This application is desiged to control and monitor the ACOM 600S/700S/1200S series amplifiers.
-#   This application is modeled after Björn Ekelund system described on his web site, https://sm7iun.se/station/acom/
-#   source code is avalible on his github page here: https://github.com/bjornekelund
-#
-#   This application was developed for two reasons:
-#       - The need to run on both PCs and MACs
-#       - The need to set the CAT interface parameters
-#
-#   This applicatoin is written in python using the pycharm IDE
-#       - python 3.7
-#       - pySerial 3.5
-#
+This application is desiged to control and monitor the ACOM 600S/700S/1200S series amplifiers.
+This application is modeled after Björn Ekelund system described on his web site, https://sm7iun.se/station/acom/
+source code is avalible on his github page here: https://github.com/bjornekelund
+
+This application was developed for two reasons:
+     - The need to run on both PCs and MACs
+     - The need to set the CAT interface parameters
+
+This applicatoin is written in python using the pycharm IDE
+     - python 3.7
+     - pySerial 3.5
+
 #   The system is modeled after Björn Ekelund work and has a minimal UI, this UI is close to Björn Ekelund
 #   system but some of the details are different and a few visual features are missing. I developed this app
 #   for cross platform use and the ability to switch the CAT interface using this application. In my application
