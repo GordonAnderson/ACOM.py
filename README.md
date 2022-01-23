@@ -5,11 +5,11 @@ source code is avalible on his github page here: https://github.com/bjornekelund
 ![image](https://user-images.githubusercontent.com/4152473/150659748-a0e6b7bc-7f7e-4099-ba83-7fefab24fa18.png)
 
 This application was developed for two reasons:
-     - The need to run on both PCs and MACs
+     - The need to run on both PCs and MACs 
      - The need to set the CAT interface parameters
 
 This applicatoin is written in python using the pycharm IDE
-     - python 3.7
+     - python 3.7   
      - pySerial 3.5
 
 The system is modeled after Björn Ekelund work and has a minimal UI, this UI is close to Björn Ekelund
