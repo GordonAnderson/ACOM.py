@@ -44,6 +44,8 @@ set the A/B switch then start the app on the proper computer and the CAT interfa
 The A/B switch can be removed and a custom cable constructed becasue the two CAT interfaces use different
 pin in the ACOM accessory connector.
 
+The Dist folder has both a MAC and PC standalone program you can dowload and run. There were built using py installer. When running on a PC you will get virus warnings from windows defender. This is a know issue with py installer. You can and should create an exclusion for ACOM.exe in defender to resolve the issue.
+
 Please contact me if you find any bugs or would like to see additional features added to this application.
 
   Revision history
