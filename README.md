@@ -44,6 +44,8 @@ set the A/B switch then start the app on the proper computer and the CAT interfa
 The A/B switch can be removed and a custom cable constructed becasue the two CAT interfaces use different
 pin in the ACOM accessory connector.
 
+This application will set the flow control lines on the serial interfaces active, these lines can be used to power the ACOM amplifier on and off. This requires the addition of a couple diodes in the RS232 automatic switch because this switch does not pass the flow control signals, only the communications signals. With the diodes in place I can just start the application to turn on the amplifier and press off then exit the application to turn the amplifier off. The PC and MAC both require a USB to RS232 interface cable that plugs into the automaic switch. All of this hardware is avalible on amazon and no amplifier modifications are required.
+
 The Dist folder has both a MAC and PC standalone program you can dowload and run. There were built using py installer. When running on a PC you will get virus warnings from windows defender. This is a know issue with py installer. You can and should create an exclusion for ACOM.exe in defender to resolve the issue.
 
 Please contact me if you find any bugs or would like to see additional features added to this application.
