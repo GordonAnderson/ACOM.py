@@ -5,8 +5,8 @@ block_cipher = None
 
 
 a = Analysis(['ACOM.py'],
-             pathex=['Z:/GAACE/PyCharmProjects/ACOM'],
-             binaries=[],
+             pathex=['/Users/gordonanderson/GAACE/PyCharmProjects/ACOM'],
+             binaries=[('/Library/Frameworks/Python.framework/Versions/3.7/lib/libtcl8.6.dylib', 'tcl'), ('/Library/Frameworks/Python.framework/Versions/3.7/lib/libtk8.6.dylib', 'tk')],
              datas=[],
              hiddenimports=[],
              hookspath=[],
@@ -38,3 +38,7 @@ exe = EXE(pyz,
           target_arch=None,
           codesign_identity=None,
           entitlements_file=None , icon='ACOM.ico')
+app = BUNDLE(exe,
+             name='ACOM.app',
+             icon='ACOM.ico',
+             bundle_identifier='ACOM')
